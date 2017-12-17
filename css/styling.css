@@ -1,0 +1,355 @@
+    /*Mobilversion*/
+
+@media only screen and (max-width: 1024px) {
+    /*side 1*/
+    .logoplace {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        margin-right: 20px;
+        margin-top: -35px;
+        margin-left: -40px;
+    }
+       /*nav. bar css*/
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-right: 40px;
+        margin-top: 150px;
+        width: 90%;
+        position: absolute;
+        top: 0;
+        font-family: 'Raleway', Arial, sans-serif;
+    }
+    li {
+        display: inline;
+        float: right;
+    }
+    a {
+        display: block;
+        padding: 8px;
+        background-color: #ffffff;
+        color: black;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #9ab6b3;
+    }
+    /*onepage body CSS*/
+    header {
+        margin-bottom: -65px;
+        width: 100%;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .pagephotobot {
+        border-bottom: 1px solid grey;
+        margin-top: -17px;
+    }
+    /* forside css */
+    #page1 {
+        height: 1000px;
+    }
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Raleway', Arial, sans-serif;
+        font-size: 25px;
+        line-height: 120%;
+    }
+    /* cases css*/
+    #page2 {
+        height: 1000px;
+        background: #a7c7dc;
+        background: -moz-linear-gradient(top, #a7c7dc 0%, #9ab6b3 99%);
+        background: -webkit-linear-gradient(top, #a7c7dc 0%, #9ab6b3 99%);
+        background: linear-gradient(to bottom, #a7c7dc 0%, #9ab6b3 99%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#9ab6b3', GradientType=0);
+        width: 100%;
+        padding-top: 0px;
+    }
+    .centeredp2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Raleway', Arial, sans-serif;
+        font-size: 25px;
+        margin-top: 70%;
+        line-height: 120%;
+    }
+    @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+    @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+    button.snip0043 {
+        font-family: 'Raleway', Arial, sans-serif;
+        border: none;
+        background-color: #ffffff;
+        border-radius: 5px;
+        color: rgba(0, 0, 0, 0.8);
+        cursor: pointer;
+        padding: 10px 30px;
+        display: inline-block;
+        margin: 16px 34px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 0.9em;
+        outline: none;
+        position: relative;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    button.snip0043:before {
+        content: '';
+        display: block;
+        border-radius: 8px;
+        position: absolute;
+        left: 40px;
+        right: 40px;
+        top: -8px;
+        bottom: -8px;
+        background-color: #9ab6b3;
+        border-top: 1px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+        opacity: 0.6;
+        z-index: -1;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    button.snip0043:hover:before,
+    button.snip0043.hover:before {
+        left: 0px;
+        right: 0px;
+        top: -5px;
+        bottom: -5px;
+        opacity: 1;
+    }
+    button.snip0043:active:before {
+        top: -3px;
+        bottom: -3px;
+        -webkit-transition: all 0.1s;
+        transition: all 0.1s;
+    }
+    /* om mig css */
+    #page3 {
+        height: 1000px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .container2 {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .centered3 {
+        position: absolute;
+        top: 45%;
+        left: 27%;
+        transform: translate(-50%, -50%);
+        font-family: 'Raleway', Arial, sans-serif;
+        font-size: 25px;
+        line-height: 120%;
+        margin-left: 35px;
+        
+    }
+    
+    h1{
+        
+        line-height: 120%;
+    }
+    
+    .overskrift{
+        font-size: 35px;
+      margin-left: 20px;
+        
+    }
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+@media only screen and (min-width: 1025px){
+    /*laptop*/
+    /*logo css*/
+    .logoplace {
+        display: inline-block;
+        vertical-align: top;
+        width: 15%;
+        margin-right: 20px;
+        margin-top: -35px;
+        margin-left: 10px;
+    }
+    /*nav. bar css*/
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-right: 40px;
+        margin-top: 122px;
+        width: 90%;
+        position: absolute;
+        top: 0;
+        font-family: 'Raleway', Arial, sans-serif;
+    }
+    li {
+        display: inline;
+        float: right;
+    }
+    a {
+        display: block;
+        padding: 8px;
+        background-color: #ffffff;
+        color: black;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #9ab6b3;
+    }
+    /*onepage body CSS*/
+    header {
+        margin-bottom: -65px;
+        width: 100%;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .pagephotobot {
+        border-bottom: 1px solid grey;
+        margin-top: -17px;
+    }
+    /* forside css */
+    #page1 {
+        height: 1000px;
+    }
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Raleway', Arial, sans-serif;
+        font-size: 25px;
+        line-height: 120%;
+    }
+    /* cases css*/
+    #page2 {
+        height: 1000px;
+        background: #a7c7dc;
+        background: -moz-linear-gradient(top, #a7c7dc 0%, #9ab6b3 99%);
+        background: -webkit-linear-gradient(top, #a7c7dc 0%, #9ab6b3 99%);
+        background: linear-gradient(to bottom, #a7c7dc 0%, #9ab6b3 99%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#9ab6b3', GradientType=0);
+        width: 100%;
+        padding-top: 0px;
+    }
+    .centeredp2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Raleway', Arial, sans-serif;
+        font-size: 25px;
+        margin-top: 25%;
+        line-height: 120%;
+    }
+    @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+    @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+    button.snip0043 {
+        font-family: 'Raleway', Arial, sans-serif;
+        border: none;
+        background-color: #ffffff;
+        border-radius: 5px;
+        color: rgba(0, 0, 0, 0.8);
+        cursor: pointer;
+        padding: 10px 30px;
+        display: inline-block;
+        margin: 16px 34px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 0.9em;
+        outline: none;
+        position: relative;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    button.snip0043:before {
+        content: '';
+        display: block;
+        border-radius: 8px;
+        position: absolute;
+        left: 40px;
+        right: 40px;
+        top: -8px;
+        bottom: -8px;
+        background-color: #9ab6b3;
+        border-top: 1px solid rgba(255, 255, 255, 0.8);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+        opacity: 0.6;
+        z-index: -1;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    button.snip0043:hover:before,
+    button.snip0043.hover:before {
+        left: 0px;
+        right: 0px;
+        top: -5px;
+        bottom: -5px;
+        opacity: 1;
+    }
+    button.snip0043:active:before {
+        top: -3px;
+        bottom: -3px;
+        -webkit-transition: all 0.1s;
+        transition: all 0.1s;
+    }
+    /* om mig css */
+    #page3 {
+        height: 1000px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .container2 {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .centered3 {
+        position: absolute;
+        top: 45%;
+        left: 27%;
+        transform: translate(-50%, -50%);
+        font-family: 'Raleway', Arial, sans-serif;
+        font-size: 25px;
+        line-height: 120%;
+    }
+    
+}
+    /*side med cases*/
