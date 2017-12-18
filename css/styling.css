@@ -352,10 +352,13 @@
         .soclogom{
             width="15%;
         }
-    }
+        
+        
+        }
+    
 
 
- 
+    /*desktop version*/
     @media only screen and (min-width: 1025px) {
         /*laptop*/
         /*logo css*/
@@ -623,11 +626,8 @@
         }
         #page2 {
             height: 1000px;
-            background: #a7c7dc;
-            background: -moz-linear-gradient(top, #a7c7dc 0%, #9ab6b3 99%);
-            background: -webkit-linear-gradient(top, #a7c7dc 0%, #9ab6b3 99%);
-            background: linear-gradient(to bottom, #a7c7dc 0%, #9ab6b3 99%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#9ab6b3', GradientType=0);
+            background-color: #9ab6b3;
+            
             width: 100%;
             padding-top: 0px;
         }
@@ -865,4 +865,6 @@
         
         
     }
-    /*side med cases*/
+    
+
+
