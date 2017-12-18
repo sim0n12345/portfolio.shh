@@ -20,7 +20,7 @@
             width: 90%;
             position: absolute;
             top: 0;
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
         }
         li {
             display: inline;
@@ -63,7 +63,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             font-size: 25px;
             line-height: 120%;
         }
@@ -78,12 +78,10 @@
             width: 100%;
             padding-top: 0px;
         }
-        
-        
         @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
         @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
         button.snip0043 {
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             border: none;
             background-color: #ffffff;
             border-radius: 5px;
@@ -131,21 +129,16 @@
             -webkit-transition: all 0.1s;
             transition: all 0.1s;
         }
-        
-               #page4 {
+        #page4 {
             height: 760px;
             background: white;
-      
             width: 100%;
             padding-top: 0px;
         }
-        
-        .billedmobil{
-            
+        .billedmobil {
             height: 760px;
         }
-        
-        .overfarve{
+        .overfarve {
             color: #9ab6b3;
         }
         .centeredp4 {
@@ -153,7 +146,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             font-size: 25px;
             margin-top: 60%;
             line-height: 120%;
@@ -161,7 +154,7 @@
         @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
         @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
         button.snip0043 {
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             border: none;
             background-color: #9ab6b3;
             border-radius: 5px;
@@ -209,12 +202,10 @@
             -webkit-transition: all 0.1s;
             transition: all 0.1s;
         }
-        
-                
         @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
         @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
         button.snip00 {
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             border: none;
             background-color: #ffffff;
             border-radius: 5px;
@@ -262,13 +253,12 @@
             -webkit-transition: all 0.1s;
             transition: all 0.1s;
         }
-        
-        
         /* om mig css */
         #page3 {
             height: 1000px;
             width: 100%;
             margin-top: 0px;
+            background:url(../img/baggrund.png)
         }
         .container2 {
             position: relative;
@@ -276,11 +266,11 @@
             color: white;
         }
         .centered3 {
-           position: absolute;
+            position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             font-size: 25px;
             line-height: 120%;
         }
@@ -299,37 +289,76 @@
             max-height: 100%;
             border: 0;
         }
-        
-               .centeredp5 {
+        .centeredp5 {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-family: 'Raleway', Arial, sans-serif;
+           font-family: 'Lato', sans-serif;
             font-size: 25px;
             margin-top: 120%;
             line-height: 120%;
-      
+        }
+        .articletekstm {
+            font-family: 'Lato', sans-serif;
+            line-height: 2.3;
+            text-align: justify;
+            margin-left: 8%;
+            margin-right: 8%;
+            margin-bottom: 8%;
+        }
+        .articlepicm {
+            display: block;
+            margin-left: auto;
+            margin-right: auto display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 84%;
+        }
+        .artikelrubrikm {
+           font-family: 'Lato', sans-serif;
+            text-align: center;
+            color: black;
+            margin-left: 8%;
+            margin-right: 8%;
+        }
+        .sesm {
+           font-family: 'Lato', sans-serif;
+            text-align: center;
+            color: black;
+            margin-bottom: 10px;
+        }
+        .roundcorm {
+            border: 1px solid #47484b;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            border-radius: 2px;
+        }
+        .uiaa {
+            width: 90%
+        }
+        .textcolorm {
+            color: black;
+           font-family: 'Lato', sans-serif;
+            line-height: 2.3;
+            text-align: left; 
+            margin-left: 8%;
+            margin-right: 8%;
+            margin-bottom: 8%;
+            font-size: 0.9em;
         
-}
-     
-}
-      
+        }
         
-    
+        .soclogom{
+            width="15%;
+        }
+    }
 
 
-
-
-
-
-    
+ 
     @media only screen and (min-width: 1025px) {
         /*laptop*/
         /*logo css*/
-        
-       
-        
         .logoplace {
             display: inline-block;
             vertical-align: top;
@@ -348,7 +377,7 @@
             width: 90%;
             position: absolute;
             top: 0;
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
         }
         li {
             display: inline;
@@ -391,21 +420,18 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-family: 'Raleway', Arial, sans-serif;
+           font-family: 'Lato', sans-serif;
             font-size: 25px;
             line-height: 120%;
         }
         /* cases css*/
-                 #page4 {
+        #page4 {
             height: 1000px;
             background: white;
-      
             width: 100%;
             padding-top: 0px;
         }
-        
-        
-        .overfarve{
+        .overfarve {
             color: #9ab6b3;
         }
         .centeredp4 {
@@ -413,7 +439,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             font-size: 25px;
             margin-top: 120%;
             line-height: 120%;
@@ -421,7 +447,7 @@
         @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
         @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
         button.snip0043 {
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             border: none;
             background-color: #9ab6b3;
             border-radius: 5px;
@@ -469,12 +495,10 @@
             -webkit-transition: all 0.1s;
             transition: all 0.1s;
         }
-        
-            
         @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
         @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
         button.snip00 {
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             border: none;
             background-color: #ffffff;
             border-radius: 5px;
@@ -538,7 +562,7 @@
             top: 45%;
             left: 27%;
             transform: translate(-50%, -50%);
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             font-size: 25px;
             line-height: 120%;
         }
@@ -553,7 +577,7 @@
             /* Firefox */
             column-count: 2;
             margin: 50px 300px 100px 300px;
-            font-family: 'Raleway', Arial, sans-serif;
+         font-family: 'Lato', sans-serif;
             line-height: 2.3;
             text-align: justify;
         }
@@ -575,12 +599,12 @@
             margin-right: 20px;
         }
         .artikelrubrik {
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             text-align: center;
             color: black;
         }
         .ses {
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             text-align: center;
             color: black;
             margin-bottom: 10px;
@@ -594,12 +618,9 @@
         .casebg {
             background-color: white;
         }
-        
-        .casesbg{
-            
+        .casesbg {
             background-color: white;
         }
-        
         #page2 {
             height: 1000px;
             background: #a7c7dc;
@@ -615,7 +636,7 @@
             top: 10%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             font-size: 25px;
             margin-top: 0%;
             line-height: 120%;
@@ -623,7 +644,7 @@
         @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
         @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
         button.snip0043 {
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             border: none;
             background-color: #ffffff;
             border-radius: 5px;
@@ -671,18 +692,13 @@
             -webkit-transition: all 0.1s;
             transition: all 0.1s;
         }
-        
-               #page4 {
+        #page4 {
             height: 760px;
             background: white;
-      
             width: 100%;
             padding-top: 0px;
         }
-        
-        
-        
-        .overfarve{
+        .overfarve {
             color: #9ab6b3;
         }
         .centeredp2 {
@@ -690,7 +706,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-family: 'Raleway', Arial, sans-serif;
+         font-family: 'Lato', sans-serif;
             font-size: 25px;
             margin-top: 27%;
             line-height: 120%;
@@ -698,7 +714,7 @@
         @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
         @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
         button.snip0043 {
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             border: none;
             background-color: #9ab6b3;
             border-radius: 5px;
@@ -746,12 +762,10 @@
             -webkit-transition: all 0.1s;
             transition: all 0.1s;
         }
-        
-                
         @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
         @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
         button.snip00 {
-            font-family: 'Raleway', Arial, sans-serif;
+           font-family: 'Lato', sans-serif;
             border: none;
             background-color: #ffffff;
             border-radius: 5px;
@@ -799,19 +813,56 @@
             -webkit-transition: all 0.1s;
             transition: all 0.1s;
         }
-        
-           .centeredp4 {
+        .centeredp4 {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-family: 'Raleway', Arial, sans-serif;
+            font-family: 'Lato', sans-serif;
             font-size: 25px;
-               margin-top: 22%;
-           
+            margin-top: 22%;
             line-height: 120%;
         }
+        .migbillede {
+            width: 100%;
+            height: 1200px;
+            margin-bottom: -10px;
+            margin-top: 15px;
+        }
+        .centeredmig {
+            position: absolute;
+            top: 45%;
+            left: 27%;
+            transform: translate(-50%, -50%);
+           font-family: 'Lato', sans-serif;
+            font-size: 25px;
+            line-height: 2.0;
+            text-align: center;
+        }
+        .textcontact {
+            font-family: 'Lato', sans-serif;
+            color: white;
+        }
         
-  
+        .textcontact:hover{
+            color: #9ab6b3;
+            text-decoration: none;
+            
+        }
+        
+        .contactbg {
+            background-color: rgba(255, 255, 255, .0);
+        
+        }
+        
+        .soclogo{
+            width: 9%;
+            padding:0;
+            margin:0;
+           
+        }
+        
+        
+        
     }
     /*side med cases*/
